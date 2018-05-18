@@ -21,6 +21,14 @@ html {
     border-bottom: 1px solid #d2d6de;
 }
 
+.content {
+    padding: 0;
+}
+
+.tab-content .box-footer {
+    padding-top: 20px;
+}
+
 div#loading {
     cursor: wait;
     margin: auto;
@@ -33,26 +41,4 @@ div#loaded {
 
 div#loaded-text {
     display: none;
-}
-
-.tab-content-top {
-    padding: 30px;
-}
-
-.category-label {
-    font-size: 140%;
-    font-weight: bold;
-}
-
-.mode-tab {
-    font-size: 140%;
-    font-weight: bold;
-}
-
-.menu-item {
-    font-size: 140%;
-}
-
-.submit-button {
-    float: right;
 }
